@@ -6,13 +6,13 @@ export const api = createApi({
   tagTypes: [
     "User",
     "Products",
-    "Customers",
-    "Transactions",
-    "Geography",
-    "Sales",
-    "Admins",
-    "Performance",
-    "Dashboard",
+    // "Customers",
+    // "Transactions",
+    // "Geography",
+    // "Sales",
+    // "Admins",
+    // "Performance",
+    // "Dashboard",
   ],
   endpoints: (build) => ({
     getUser: build.query({
